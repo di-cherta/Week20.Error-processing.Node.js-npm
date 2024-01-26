@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Swapi</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Какую информацию хотите найти?</h1>
+        <select id="type">
+            <option value="films">films</option>
+            <option value="people">people</option>
+            <option value="planets">planets</option>
+            <option value="species">species</option>
+            <option value="starships">starships</option>
+        </select>
+        <input type="text" placeholder="Введите номер" max="10" id="number">
+        <button id="search">Искать</button>
+        <p id="result"></p>
+        <p id="error"></p>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
